@@ -1,15 +1,7 @@
 /*********************************************************************
 * Example: Using the GSL (Gnu Scientific Library) to solve a system 
 * of algebraic equations Ax=b via permuted LU factorization.
-*
-* student version
-*
 * Compile: gcc -o lu lu_fact.c -lgsl -lgslcblas
-*
-* 
-* 12/03/2016   R. Repka - Fixed ansi warning for DECLARE_TIMER()
-* 11/29/2019   R. Repka - Added true dynamic support 
-* Reference: Golub and Vanloan Algorithms 3.4.1
 *********************************************************************/
 #include <stdio.h>
 #include <gsl/gsl_linalg.h>
